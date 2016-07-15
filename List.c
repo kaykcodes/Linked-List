@@ -44,10 +44,3 @@ void display()//to diplay the "data" of all the nodes in the list in sequence
     ptr=ptr->next;
   }
 }
-
-void main()
-{
-  int data[5]={1,2,3,4,5};
-  createList(data,5);//the length of the array is explicitly sent as I don't know how sizeof() works
-  display();
-}
